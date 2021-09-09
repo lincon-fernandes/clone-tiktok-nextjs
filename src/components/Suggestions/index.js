@@ -180,11 +180,6 @@ function Suggestions() {
           {people.map((person, index) => (
             <Item>
               <User key={index} user={person}></User>
-              <ButtonContainer>
-                <Button fontSize={14} outlined>
-                  Seguir
-                </Button>
-              </ButtonContainer>
             </Item>
           ))}
         </ItemContainer>
